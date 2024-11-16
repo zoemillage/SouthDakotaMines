@@ -1,0 +1,20 @@
+
+SDSM&T TechMart
+Are you a club member (y/n): 
+Are you taxed exempt (y/n): 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Enter price: 
+Items Purchased : 10
+Sub Total       $ 436.23
+Member Discount $ 0.00
+Tax             $ 26.17
+Total Bill      $ 462.40

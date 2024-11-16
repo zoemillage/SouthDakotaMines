@@ -1,0 +1,14 @@
+There is space for 25 grades available.
+How many grades to analyze? 8
+Enter grades: 45
+68
+72
+96
+88
+84
+96
+87
+
+Average: 79.50
+Min: 45
+Max: 96

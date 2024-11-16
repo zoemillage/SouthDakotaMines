@@ -1,0 +1,6 @@
+How many rows in population grid? How many columns in population grid? Enter population values: 	456 55 25 657 95 
+	254 75 949 255 86 
+	654 3 51 22 351 
+	33 66 24 43 73 
+The most populous metro area is centered at (1, 1)
+with a population of 2522

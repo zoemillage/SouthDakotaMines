@@ -1,0 +1,5 @@
+4 4
+pencil
+red pen
+stapler
+rubber duck

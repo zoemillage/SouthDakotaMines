@@ -1,0 +1,9 @@
+LotID: 3338
+
+Standard Deviation of IV:    0.0000      Pass
+Median of C:                 3.5600      Pass
+Standard Deviation of A:     1.0000      Pass
+Percentage of failed MT24:   0.0000      Pass
+Percentage of failed MT5:    0.0000      Pass
+
+Action: Accept

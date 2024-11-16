@@ -1,0 +1,9 @@
+LotID: 4678
+
+Standard Deviation of IV:    0.0000      Pass
+Median of C:                 4.0000      Fail
+Standard Deviation of A:     1.1049      Pass
+Percentage of failed MT24:   0.0000      Pass
+Percentage of failed MT5:    0.0000      Pass
+
+Action: Reject
