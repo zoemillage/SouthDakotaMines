@@ -8,3 +8,7 @@ An Introductory course to computer science and coding with C++.
 ### [CSC 215 - Programming Techniques](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20215%20-%20Programming%20Techniques)
 A more in depth course on C++, utilizing structs, classes, and [Catch2](https://github.com/catchorg/Catch2) test cases.
 <br>Programs were originally developed using Visual Studio Community but were modified to run in [Visual Studio Code](https://code.visualstudio.com/).
+
+### [CSC 315 - Data Structures and Algorithms](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20315%20-%20Data%20Structures%20and%20Algorithms)
+A course on data structures and their uses. Written in C++.
+<br>Programs developed to run in [Visual Studio Code](https://code.visualstudio.com/).
