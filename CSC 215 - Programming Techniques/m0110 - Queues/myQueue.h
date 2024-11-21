@@ -58,7 +58,7 @@ class Queue
         string item;    /*!< The value at each node */
         node *next;     /*!< The pointer to the following node in the Queue */
     };
-    node *headptr;  /*!< A pointer to the first item in the Queue*/
+    node *headptr;  /*!< A pointer to the first item in the Queue */
     node *tailptr;  /*!< A pointer to the last item in the Queue */
 };
 
