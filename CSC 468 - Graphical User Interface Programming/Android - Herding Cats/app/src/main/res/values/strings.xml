@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HCats Millage Zoe</string>
+    <string name="dummy_text">text</string>
+    <string name="text_val">Text Val</string>
+    <string name="moves">Moves:</string>
+    <string name="treats">Treats:</string>
+    <string name="caught">Caught:</string>
+    <string name="right">Right</string>
+    <string name="down">Down</string>
+    <string name="reset">Reset</string>
+    <string name="treat">Treat</string>
+    <string name="you_won">You won!</string>
+    <string name="you_lose">You lost!</string>
+    <string name="won_reason">You caught all the cats!</string>
+    <string name="lose_reason">You ran out of turns…</string>
+    <string name="restart">Restart</string>
+    <string name="colored_star">Colored star</string>
+    <string name="color_picker">Color picker</string>
+</resources>

@@ -1,0 +1,63 @@
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜_X( 0)_〜〜〜〜〜〜〜〜〜
+ 〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜.......〜〜〜〜〜〜〜〜〜
+ 
+ 1) Add Default Boat
+ 2) Update One Tick
+ 3) Update X Ticks
+ 4) Show Section Details
+ 5) Add Boat
+ 6) Make Tester
+ 7) Make New Simulator
+ 0) Quit
+ 
+ Choice:> [34m[01m7[0m
+Section (1) or Lock (2):> [34m[01m-1[0m
+Input an option in the range 1-2
+ Add another component (n to stop):> [34m[01my[0m
+Section (1) or Lock (2):> [34m[01m3[0m
+Input an option in the range 1-2
+ Add another component (n to stop):> [34m[01my[0m
+Section (1) or Lock (2):> [34m[01ma[0m
+Cannot accept value
+ Add another component (n to stop):> [34m[01my[0m
+Section (1) or Lock (2):> [34m[01m1[0m
+Length:> [34m[01ma[0m
+Cannot accept value
+ Add another component (n to stop):> [34m[01my[0m
+Section (1) or Lock (2):> [34m[01m1[0m
+Length:> [34m[01m1[0m
+Flow:> [34m[01ma[0m
+Cannot accept value
+ Add another component (n to stop):> [34m[01my[0m
+Section (1) or Lock (2):> [34m[01m2[0m
+Fill behavior:> [34m[01ma[0m
+None (1), Basic (2), or Fast Empty (3):> [34m[01my[0m
+Cannot accept value
+ Add another component (n to stop):> [34m[01m-1[0m
+Section (1) or Lock (2):> [34m[01my[0m
+Input an option in the range 1-2
+ Add another component (n to stop):> [34m[01m2[0m
+Section (1) or Lock (2):> [34m[01m1[0m
+Fill behavior:> [34m[01ma[0m
+None (1), Basic (2), or Fast Empty (3):> [34m[01my[0m
+Depth:> [34m[01m1[0m
+Cannot accept value
+ Add another component (n to stop):> [34m[01m1[0m
+Section (1) or Lock (2):> [34m[01m1[0m
+Length:> [34m[01mn[0m
+Flow:> [34m[01m0[0m
+Add another component (n to stop):> [34m[01mNULL[0m
+〜〜〜
+ 〜〜〜
+ 
+ 1) Add Default Boat
+ 2) Update One Tick
+ 3) Update X Ticks
+ 4) Show Section Details
+ 5) Add Boat
+ 6) Make Tester
+ 7) Make New Simulator
+ 0) Quit
+ 
+ Choice:> [34m[01mNULL[0m
+ 

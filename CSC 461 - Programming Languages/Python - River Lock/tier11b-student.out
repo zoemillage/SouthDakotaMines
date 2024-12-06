@@ -1,0 +1,33 @@
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜_X( 0)_〜〜〜〜〜〜〜〜〜
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜.......〜〜〜〜〜〜〜〜〜
+
+1) Add Default Boat
+2) Update One Tick
+3) Update X Ticks
+4) Show Section Details
+5) Add Boat
+6) Make Tester
+7) Make New Simulator
+0) Quit
+
+Choice:> Section (1) or Lock (2):> Input an option in the range 1-2
+Add another component (n to stop):> Section (1) or Lock (2):> Input an option in the range 1-2
+Add another component (n to stop):> Section (1) or Lock (2):> Cannot accept value
+Add another component (n to stop):> Section (1) or Lock (2):> Length:> Cannot accept value
+Add another component (n to stop):> Section (1) or Lock (2):> Length:> Flow:> Cannot accept value
+Add another component (n to stop):> Section (1) or Lock (2):> Fill behavior: None (1), Basic (2), or Fast Empty (3):> Cannot accept value
+Add another component (n to stop):> Section (1) or Lock (2):> Input an option in the range 1-2
+Add another component (n to stop):> Section (1) or Lock (2):> Fill behavior: None (1), Basic (2), or Fast Empty (3):> Depth:> Cannot accept value
+Add another component (n to stop):> Section (1) or Lock (2):> Length:> Flow:> Add another component (n to stop):> 〜〜〜
+〜〜〜
+
+1) Add Default Boat
+2) Update One Tick
+3) Update X Ticks
+4) Show Section Details
+5) Add Boat
+6) Make Tester
+7) Make New Simulator
+0) Quit
+
+Choice:> 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:contentDescription="@string/puzzle_description"
+        app:srcCompat="@drawable/grubby" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textColorHint="@color/dark_grey" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onStartPuzzle"
+            android:text="@string/start_puzzle" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</LinearLayout>

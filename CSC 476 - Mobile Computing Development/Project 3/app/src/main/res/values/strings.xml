@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project 3 Millage ZR</string>
+    <string name="denied">"Permission Denied. Distance finding will not work!"</string>
+    <string name="dummy">Dummy</string>
+    <string name="provider">Provider:</string>
+    <string name="move">Move around to draw</string>
+    <string name="tilt">Tilt up and down to resize</string>
+</resources>

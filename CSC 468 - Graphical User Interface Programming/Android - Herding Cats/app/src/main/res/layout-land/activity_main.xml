@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <edu.sdsmt.hcats_millage_zoe.GameView
+        android:id="@+id/gameArea"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="10:8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/downBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/movesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/moves"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/treatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/treats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movesText" />
+
+    <TextView
+        android:id="@+id/caughtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/caught"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/treatText" />
+
+    <TextView
+        android:id="@+id/moves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/text_val"
+        app:layout_constraintStart_toEndOf="@+id/movesText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/treats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/text_val"
+        app:layout_constraintStart_toEndOf="@+id/treatText"
+        app:layout_constraintTop_toBottomOf="@+id/moves" />
+
+    <TextView
+        android:id="@+id/caught"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/text_val"
+        app:layout_constraintStart_toEndOf="@+id/caughtText"
+        app:layout_constraintTop_toBottomOf="@+id/treats" />
+
+    <Button
+        android:id="@+id/rightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="onRight"
+        android:padding="16dp"
+        android:text="@string/right"
+        app:layout_constraintBottom_toTopOf="@+id/treatBtn"
+        app:layout_constraintHorizontal_weight=".5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/downBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="onDown"
+        android:padding="16dp"
+        android:text="@string/down"
+        app:layout_constraintBottom_toTopOf="@+id/resetBtn"
+        app:layout_constraintEnd_toEndOf="@+id/resetBtn"
+        app:layout_constraintHorizontal_weight=".5"
+        app:layout_constraintStart_toStartOf="@+id/resetBtn" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onReset"
+        android:padding="16dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/treatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onTreat"
+        android:padding="16dp"
+        android:text="@string/treat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:clickable="true"
+        android:onClick="onBlue"
+        android:contentDescription="@string/colored_star"
+        app:fabCustomSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingMain"
+        app:layout_constraintEnd_toEndOf="@+id/floatingMain"
+        app:layout_constraintStart_toStartOf="@+id/floatingMain"
+        app:layout_constraintTop_toTopOf="@+id/floatingMain"
+        app:srcCompat="@android:drawable/star_big_on"
+        app:tint="@color/light_blue_400" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingSeafoam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:clickable="true"
+        android:onClick="onSeafoam"
+        android:contentDescription="@string/colored_star"
+        app:fabCustomSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingMain"
+        app:layout_constraintEnd_toEndOf="@+id/floatingMain"
+        app:layout_constraintStart_toStartOf="@+id/floatingMain"
+        app:layout_constraintTop_toTopOf="@+id/floatingMain"
+        app:srcCompat="@android:drawable/star_big_on"
+        app:tint="@color/blue_green" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:clickable="true"
+        android:onClick="onGreen"
+        android:contentDescription="@string/colored_star"
+        app:fabCustomSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingMain"
+        app:layout_constraintEnd_toEndOf="@+id/floatingMain"
+        app:layout_constraintStart_toStartOf="@+id/floatingMain"
+        app:layout_constraintTop_toTopOf="@+id/floatingMain"
+        app:srcCompat="@android:drawable/star_big_on"
+        app:tint="@color/green" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:clickable="true"
+        android:contentDescription="@string/color_picker"
+        android:onClick="onColorPicker"
+        app:fabCustomSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingMain"
+        app:layout_constraintEnd_toEndOf="@+id/floatingMain"
+        app:layout_constraintStart_toStartOf="@+id/floatingBlue"
+        app:layout_constraintTop_toTopOf="@+id/floatingMain"
+        app:srcCompat="@android:drawable/star_big_on"
+        app:tint="@null" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/dummy_text"
+        android:onClick="onBurst"
+        app:backgroundTint="@color/light_blue_400"
+        app:layout_constraintBottom_toTopOf="@+id/downBtn"
+        app:layout_constraintEnd_toEndOf="@+id/downBtn"
+        app:layout_constraintStart_toStartOf="@+id/downBtn"
+        app:srcCompat="@android:drawable/star_big_on" />
+</androidx.constraintlayout.widget.ConstraintLayout>

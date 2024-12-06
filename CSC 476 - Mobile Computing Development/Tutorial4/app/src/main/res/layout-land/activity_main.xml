@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onColorStart"
+        android:text="@string/buttonColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonPicture"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPicture" />
+
+    <Button
+        android:id="@+id/buttonPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onPicture"
+        android:paddingHorizontal="100dp"
+        android:text="@string/buttonPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkFeather"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onCheck"
+        android:text="@string/checkFeather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonColor"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerHat" />
+
+    <Spinner
+        android:id="@+id/spinnerHat"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/hats_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buttonColor"
+        app:layout_constraintTop_toBottomOf="@+id/buttonColor" />
+
+    <edu.sdsmt.mad_hatter_millage_zoe.HatterView
+        android:id="@+id/hatterView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPicture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">T1 Millage Zoe R</string>
+        <!-- assignment document inconsistent on whether this should be
+        T1 Millage Z R
+        or T1 Millage Zoe R-->
+    <string name="greeting">Welcome to Zoe\'s Program</string>
+    <string name="grumpy_button">Don\'t Press This Button</string>
+    <string name="angry_button">I told you not to press me!</string>
+    <string name="bar_text">Tutorial 1 Millage Zoe</string>
+</resources>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "96139313958",
+    "firebase_url": "https://mobilemadhatter-millage-z-r-default-rtdb.firebaseio.com",
+    "project_id": "mobilemadhatter-millage-z-r",
+    "storage_bucket": "mobilemadhatter-millage-z-r.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96139313958:android:df9b53777cbb590149f7e7",
+        "android_client_info": {
+          "package_name": "edu.sdsmt.millage_z_r.tutorial56"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3LT5zwHXmOii_V4xsvewoXnCmUdv-u6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96139313958:android:0fd0f3b061e5c8b249f7e7",
+        "android_client_info": {
+          "package_name": "edu.sdsmt.rename.tutorial5starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3LT5zwHXmOii_V4xsvewoXnCmUdv-u6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

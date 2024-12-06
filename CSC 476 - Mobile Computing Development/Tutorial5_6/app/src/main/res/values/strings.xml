@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<resources>
+    <string name="app_name">T56 millage z r</string>
+    <string name="catalog_fail">Failed to load catalog of Hattings</string>
+    <string name="color">Color</string>
+    <string name="delete">Delete from cloud</string>
+    <string name="delete_fail">Failed to delete Hatting</string>
+    <string name="delete_sure">Are you sure you want to delete?</string>
+    <string name="denied">Cannot complete task without permission.</string>
+    <string name="dummy">Dummy</string>
+    <string name="feather">Feather</string>
+    <string name="file_name">file name</string>
+    <string name="gallery">Gallery</string>
+    <string name="hat_icon">Hat Icon</string>
+    <string name="hat_select">Hat type selection</string>
+    <string name="httpsRequired">Must use a https connection</string>
+    <string name="imageType">Cannot load this image type.</string>
+    <string name="image_url">Image URL</string>
+    <string name="load_fm_title">Load from cloud</string>
+    <string name="loading">Loading</string>
+    <string name="loading_fail">Failed to load Hatting</string>
+    <string name="mclaury_url">https://farm9.staticflickr.com/8214/8301318775_e5d8acf8f7_z.jpg</string>
+    <string name="menu_save">Save to cloud&#8230;</string>
+    <string name="menu_load">Load from cloud&#8230;</string>
+    <string name="menu_delete">Delete from cloud&#8230;</string>
+    <string name="name">Name</string>
+    <string name="permissionRational">Please select \"ok\" for the following permission. Access to your files is needed to load images from your device.</string>
+    <string name="picture">Picture</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+    <string name="saving_fail">Failed to save Hatting</string>
+    <string name="saving_fail_no_name">Cannot save a nameless Hatting</string>
+    <string name="url_dlg_heading">Select Picture</string>
+    <string name="url_prompt">URL:</string>
+
+    <string-array name="hats_spinner">
+
+        <item>Stetson Black Rancher</item>
+        <item>Stetson Gray 20X</item>
+        <item>Custom</item>
+
+    </string-array>
+
+</resources>

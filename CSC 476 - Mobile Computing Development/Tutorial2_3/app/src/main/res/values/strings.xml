@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">T23 Millage ZR</string>
+    <string name="puzzle_description">Puzzle Image</string>
+    <string name="start_puzzle">Start Puzzle</string>
+    <string name="welcome">Welcome to Zoe\'s Puzzle</string>
+    <string name="name">name</string>
+    <string name="player">Player</string>
+    <string name="textview">TextView</string>
+    <string name="hurrah">Hurrah!!!</string>
+    <string name="completed_puzzle">You have completed the puzzle!</string>
+    <string name="shuffle">Shuffle</string>
+</resources>
