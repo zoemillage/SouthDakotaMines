@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Project1Team3</string>
+    <string name="player_1_name_hint">Player 1\'s Name</string>
+    <string name="player_2_name_hint">Player 2\'s Name</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="select_num_rounds_text">Select Number of Rounds</string>
+    <string name="how_to_play_button_text">How to Play</string>
+    <string name="start_button">Start</string>
+    <string name="score">"Score: "</string>
+    <string name="their_turn">\'s turn</string>
+    <string name="capture_collectibles">Capture collectibles</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="change_capture">Change capture</string>
+    <string name="end_turn">Collect!</string>
+    <string name="current_capture">Current Capture:</string>
+    <string name="round_number">Round</string>
+    <string name="congratulations">"Congratulations, "</string>
+    <string name="end_winner_score">"Score: "</string>
+    <string name="end_loser_score">"'s score: "</string>
+    <string name="restart">Restart</string>
+    <string name="dot_capture">Dot Capture</string>
+    <string name="line_capture">Line Capture</string>
+    <string name="rect_capture">Rectangle Capture</string>
+    <string name="how_to_play_title"><b>How to Play</b></string>
+    <string name="how_to_play_goal">The goal of the game is to capture collectable items on a game board with one of three capture options. Earn more points than your opponent to win.</string>
+    <string name="how_to_play_change_capture">On your turn, press the \"change capture\" button to select one the three capture methods:</string>
+    <string name="how_to_play_guaranteed"><b>Circle Collect:</b> Place a circle to collect all collectables underneath it or the nearest collectible if none are underneath it.</string>
+    <string name="how_to_play_rectangle"><b>Rectangle Collect:</b> Use a rectangle to capture collectables underneath it. As the rectangle gets larger, its chance of capturing decreases. </string>
+    <string name="how_to_play_line"><b>Line Collect:</b> Use a line to capture collectables near it. You can rotate and move the line, but not change its size. Lines have a 75 percent chance of capture.</string>
+    <string name="how_to_play_collect">Press the \"Collect!\" button to capture the collectibles and end your turn.</string>
+    <string name="how_to_play_end">Then game ends when the final round is over. The player with more points wins!</string>
+    <string name="close">Close</string>
+    <string name="current_capture_dot_capture">Current Capture: Dot Capture</string>
+    <string name="current_capture_rectangle_capture">Current Capture: Rectangle Capture</string>
+    <string name="current_capture_line_capture">Current Capture: Line Capture</string>
+    <string name="selectText">Select a capture method:</string>
+    <string-array name="round_spinner">
+        <item>1 round</item>
+        <item>3 rounds</item>
+        <item>5 rounds</item>
+    </string-array>
+</resources>

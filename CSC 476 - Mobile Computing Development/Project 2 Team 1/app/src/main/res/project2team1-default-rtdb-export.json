@@ -1,0 +1,55 @@
+{
+  "Game": {
+    "board": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "gameOver": false,
+    "player1Name": "",
+    "player1Score": 0,
+    "player1Turn": true,
+    "player2Name": "",
+    "player2Score": 0,
+    "playerTurn": 1,
+    "roundNumber": 1,
+    "totalNumberOfRounds": 3,
+    "turnOver": false
+  },
+  "Lobby": {
+    "player1": "waiting",
+    "player2": "waiting"
+  }
+}

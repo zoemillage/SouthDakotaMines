@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="splashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:windowContentOverlay">@drawable/mobile_p1t3_playstore</item>
+        <item name="android:duration">3000</item>
+    </style>
+</resources>
