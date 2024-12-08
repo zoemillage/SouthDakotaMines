@@ -1,6 +1,8 @@
 /*
 Program: Java OOP
-Author: Zoe Millage; some functions, partial functions, and classes by Dr. Lisa Rebenitsch
+Author: Zoe Millage
+    Tests, ome functions, partial functions, and classes by
+    Dr. Lisa Rebenitsch. See README-LICENSE.txt.
 Class: CSC-461-M01, 2023f
 Date Due: 28 September 2023
 Description: Lets the user customize a small city by placing tiles,

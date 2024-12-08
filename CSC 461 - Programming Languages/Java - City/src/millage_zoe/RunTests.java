@@ -1,3 +1,8 @@
+/**
+ * Tests the program.
+ * Provided by Dr. Lisa Rebenitsch. See README-LICENSE.txt.
+ */
+
 package millage_zoe;
 
 import java.io.*;

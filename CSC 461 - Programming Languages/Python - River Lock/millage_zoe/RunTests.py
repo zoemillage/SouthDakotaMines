@@ -1,6 +1,8 @@
 """
-@author Dr. Lisa Rebenitsch
+Tests the program.
+Provided by Dr. Lisa Rebenitsch. See README-LICENSE.txt.
 """
+
 from millage_zoe import MainStarter
 from ColorText import ColorText
 
