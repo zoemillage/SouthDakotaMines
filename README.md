@@ -20,6 +20,7 @@ A course on learning additional languages, as well as learning and using a varie
 
 ### [CSC 468 - Graphical User Interface Programming](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20468%20-%20Graphical%20User%20Interface%20Programming)
 A course on developing programs that use GUIs, along with design principles such as UI and UX design and color theory.
+<br> JavaFX program written using [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 <br> Andriod program written in Java using [Android Studio](https://developer.android.com/studio). Developed with Android Studio Iguana, and still worked when testing on Android Studio Ladybug.<br><br>
 
 ### [CSC 476 - Mobile Computing Development](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20476%20-%20Mobile%20Computing%20Development)
