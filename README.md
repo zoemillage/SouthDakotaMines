@@ -23,6 +23,13 @@ A course on developing programs that use GUIs, along with design principles such
 <br> JavaFX program written using [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 <br> Andriod program written in Java using [Android Studio](https://developer.android.com/studio). Developed with Android Studio Iguana, and still worked when testing on Android Studio Ladybug.<br><br>
 
+### [CSC 463/467 - Capstone Design](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20463%20467%20-%20Capstone%20Design)
+A course where students develop real solutions for sponsors as a group. Contributions in this case were overhauling the GUI for a web application. In this repository is pictures of the initial design, a mockup made in [Figma](https://www.figma.com/), and the functional design given to the sponsor for one of the pages. 
+<br> The web application was developed using CSS, HTML, and [React](https://react.dev/).<br><br>
+
 ### [CSC 476 - Mobile Computing Development](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20476%20-%20Mobile%20Computing%20Development)
 A course on developing programs, and tests for those programs, for mobile devices. Includes design principles and considerations for mobile applications, such as hardware and screen size limitations.
 <br> Programs written in Java using [Android Studio](https://developer.android.com/studio). Developed with Android Studio Hedgehog, and still worked when testing on Android Studio Ladybug.<br><br>
+
+### [CSC 484 - Database Management Systems](https://github.com/zoemillage/SouthDakotaMines/tree/main/CSC%20484%20-%20Database%20Management%20Systems)
+A course on developing databases with SQL using [MySQL](https://www.mysql.com/). Contains the file and report for the final project of the course.
